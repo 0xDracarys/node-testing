@@ -1,0 +1,117 @@
+{
+  "node": "v22.20.0",
+  "links": {
+    "file": true,
+    "dir": true
+  },
+  "results": [
+    {
+      "case": "CTRL_in_read",
+      "result": "RESULT READ_OK \"hello inside\"",
+      "stderr_head": ""
+    },
+    {
+      "case": "CTRL_out_read",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "A1_drive_relative",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "A2_fwd_slash_abs",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "A3_dotdot",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "C1_prefix_q",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "C2_prefix_device",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "C6_case_flip",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "D1_link_file",
+      "result": "RESULT READ_OK \"VAULT-WITNESS-7f3a9\"",
+      "stderr_head": ""
+    },
+    {
+      "case": "D2_link_dir",
+      "result": "RESULT READ_OK \"VAULT-WITNESS-7f3a9\"",
+      "stderr_head": ""
+    },
+    {
+      "case": "D5_prefix_sibling",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "D5b_user_wildcard",
+      "result": "RESULT READ_OK \"sibling loot\"",
+      "stderr_head": ""
+    },
+    {
+      "case": "E1b_promises",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "E1c_stream",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "E2_stat",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "E3_require",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "E4_copyfile",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "E5_readdir",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": ""
+    },
+    {
+      "case": "W1_plain_write",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": "",
+      "side_effect_absent": true
+    },
+    {
+      "case": "W2_link_dir_write",
+      "result": "RESULT WRITE_OK",
+      "stderr_head": "",
+      "side_effect_absent": false
+    },
+    {
+      "case": "W3_prefix_write",
+      "result": "RESULT DENIED ERR_ACCESS_DENIED",
+      "stderr_head": "",
+      "side_effect_absent": true
+    }
+  ]
+}

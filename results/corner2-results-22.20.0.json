@@ -1,0 +1,53 @@
+{
+  "node": "v22.20.0",
+  "results": [
+    {
+      "case": "G1_execfile_P2_quote_amp",
+      "status": null,
+      "error": "EINVAL",
+      "stderr": "",
+      "marker_created": false,
+      "bat_received": ""
+    },
+    {
+      "case": "G1_execfile_P5_newline",
+      "status": null,
+      "error": "EINVAL",
+      "stderr": "",
+      "marker_created": false,
+      "bat_received": ""
+    },
+    {
+      "case": "G2_extless_P1_control",
+      "status": null,
+      "error": "ENOENT",
+      "stderr": "",
+      "marker_created": false,
+      "bat_received": ""
+    },
+    {
+      "case": "G2_extless_P2_quote_amp",
+      "status": null,
+      "error": "ENOENT",
+      "stderr": "",
+      "marker_created": false,
+      "bat_received": ""
+    },
+    {
+      "case": "G3_drive_cwd_env",
+      "status": null,
+      "error": "EINVAL",
+      "stderr": "",
+      "marker_created": false,
+      "bat_received": ""
+    },
+    {
+      "case": "G3_newline_key",
+      "status": null,
+      "error": "EINVAL",
+      "stderr": "",
+      "marker_created": false,
+      "bat_received": ""
+    }
+  ]
+}
