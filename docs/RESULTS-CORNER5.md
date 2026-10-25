@@ -67,7 +67,11 @@ But sibling scopes ARE enforced in the same worker:
   scope notes.
 
 ## Status
-CANDIDATE — strongest of the Node hunt. Evidence preserved in
-corner5_k1/k2/k4/k5 outputs (this session). Next: minimal standalone
-PoC script (parent + worker, one file), re-verify from a clean
-fixture, then Sam reviews and submits via HackerOne.
+SUBMITTED, then closed Informative on Signal — NOT on merits.
+HackerOne report #4142193, submitted 2026-10-24, closed the same
+day 15:43 CEST as Informative because the reporter's Signal score
+did not meet the Node.js project's 1.0 minimum. Never triaged on
+substance; one trial report likely burned (2 left). Full outcome,
+exact closure wording, and next step (OpenJS Slack DM only):
+`HACKERONE-OUTCOME.md` in the repo root. Do not resubmit on
+HackerOne.

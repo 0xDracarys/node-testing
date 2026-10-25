@@ -15,6 +15,17 @@ Full evidence: `docs/RESULTS-CORNER5.md`. The released-docs
 counter-argument ("the model does not inherit to a worker thread")
 is quoted and addressed there.
 
+## HackerOne outcome — Informative on Signal, not on merits
+
+Submitted 2026-10-24 as HackerOne report **#4142193**. Closed the
+same day at 15:43 CEST as **Informative, because the reporter's
+Signal score was below the Node.js project's minimum (1.0)**. It
+was never triaged on its technical merits — no maintainer judged
+the finding. Full wording, timeline, trial-slot impact, and the
+only next step (private DM to an OpenJS security steward on Slack):
+`HACKERONE-OUTCOME.md`. DM pack: `SLACK-DM-DRAFT.md`. Do not
+resubmit on HackerOne.
+
 ## Corners
 
 | Corner | Surface | Verdict |
@@ -22,7 +33,7 @@ is quoted and addressed there.
 | 1 | fs paths × Windows shapes, symlinks/junctions | Holds, except documented symlink limitation |
 | 2 | child_process × batch-file guard | Holds; guard disagreement dies at CreateProcess |
 | 3 | `--allow-env` | Feature unreleased — parked until it ships |
-| 4 | fs.glob | Fails closed everywhere; control-case anomaly parked |
+| 4 | fs.glob | Fails closed everywhere; control denial was a path-coverage quirk (`--allow-fs-read=*` makes it work) |
 | 5 | hardlinks, fs.watch, **worker threads** | Hardlink/watch hold; **worker read hole — candidate** |
 
 ## Layout
@@ -35,6 +46,10 @@ is quoted and addressed there.
 - `results/` — raw JSON outputs from the runs.
 - `COPY-PASTE-TESTS.md` — CMD commands to rerun the key checks
   by hand, including the worker-read check.
+- `HACKERONE-REPORT.md` — the report as submitted (#4142193).
+- `HACKERONE-OUTCOME.md` — why it closed Informative (Signal).
+- `SLACK-DM-DRAFT.md` — OpenJS Slack DM pack, the next step.
+- `FINAL-TEST.md` — the exact 4-command final re-test pack.
 
 ## Note
 
