@@ -46,7 +46,8 @@ resubmit on HackerOne.
 - `results/` — raw JSON outputs from the runs.
 - `COPY-PASTE-TESTS.md` — CMD commands to rerun the key checks
   by hand, including the worker-read check.
-- `HACKERONE-REPORT.md` — the report as submitted (#4142193).
+- `HACKERONE-REPORT.md` — the pre-submission draft, field-by-field paste guide.
+- `HACKERONE-REPORT-AS-SUBMITTED.md` — the report text as submitted (#4142193), with the runnable PoCs embedded.
 - `HACKERONE-OUTCOME.md` — why it closed Informative (Signal).
 - `SLACK-DM-DRAFT.md` — OpenJS Slack DM pack, the next step.
 - `FINAL-TEST.md` — the exact 4-command final re-test pack.

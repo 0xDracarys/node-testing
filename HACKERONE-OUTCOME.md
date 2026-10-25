@@ -12,7 +12,7 @@ That is the whole story. Nothing in the closure says the finding is wrong, expec
 - **Title:** "Worker threads bypass --permission read restrictions in Node.js v22.20.0 and v24.22.1"
 - **Reporter:** Shubham Bhasker (HackerOne: dracarysroxxx, GitHub: 0xDracarys)
 - **Submitted:** 2026-10-24, by Sam on HackerOne (Report Intent #402203)
-- **Full report text in this repo:** `HACKERONE-REPORT.md`
+- **Full report text in this repo:** `HACKERONE-REPORT.md` (pre-submission draft) and `HACKERONE-REPORT-AS-SUBMITTED.md` (text as submitted, PoCs embedded)
 - **Proofs in this repo:** `lab/worker-read-poc.js` (minimum proof), `lab/worker-boundary-poc.js` (escalation / end-effect proof)
 - **Evidence in this repo:** `docs/RESULTS-CORNER5.md`, `docs/RESULTS-ESCALATION.md`
 
